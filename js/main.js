@@ -881,81 +881,85 @@ form.addEventListener("submit", handleSubmit);
 
 const projectData = [
   {
-    title: "PassGen",
-    subTitle:
-      "You can easily generate secure and random passwords using this simple tool.",
+    title: "TAFSIL.ID",
+    subTitle: "TAFSIR SAINS DIGITAL",
+    thumbnail: "../img/thumbnails/tafsilthumbs.png",
+    description:
+      "Tafsil.id is a digital platform that provides Qur'anic verses along with scientific interpretations, helping lecturers and students find and understand verses relevant to science. With theme-based classification, Tafsil.id supports the integration of religion and science in higher education in a practical and accessible way.",
+    techStack: ["Laravel", "TailwindCSS"],
+    srcURL: "https://tafsil.id",
+  },
+  {
+    title: "OSPEK RAASEKH 2024",
+    subTitle: "Unida Gontor 2024 Ospek Committee",
+    thumbnail: "../img/thumbnails/ospek.png",
+    description:
+      "Ospek RASSEKH is a new student orientation also known as Study Orientation and Campus introduction or OSPEK. This activity aims to recognize and understand the campus environment as an academic environment and understand the mechanisms that apply in it.",
+    techStack: ["Laravel"],
+    srcURL: "https://github.com/naufalharitsprasetia/ospekRaasekh",
+  },
+  {
+    title: "SIBETA",
+    subTitle: "Situs Pembelajaran Tajwid",
+    thumbnail: "../img/thumbnails/sibeta.jpg",
+    description:
+      "SIBETA is a Website-Based Tajweed Learning Platform, SIBETA is designed to increase the level of Islamic interest in learning tajweed, and make it easier for each of us to learn tajweed without having to buy books or go to a place of learning or majlis.",
+    techStack: ["Laravel"],
+    srcURL: "https://github.com/naufalharitsprasetia/uasPbo",
+  },
+  {
+    title: "Bengkel TI",
+    subTitle: "One of the business units of the informatics engineering",
+    thumbnail: "../img/thumbnails/bengkel.jpg",
+    description:
+      "Bengkel TI one of the business units of the informatics engineering study program at Darussalam Gontor University that overcomes damage or obstacles to user devices (laptops, cellphones) LCDs, software installations etc., and also IT Workshops sell several accessories such as (mice, keyboards, headsets, etc.).",
+    techStack: ["Laravel"],
+    srcURL: "https://github.com/naufalharitsprasetia/bengkel_ti",
+  },
+  {
+    title: "TAFSIL Semantic Search",
+    subTitle: "Inovasi Fitur Pencarian pada Website Tafsil",
+    thumbnail: "../img/thumbnails/semantictafsil.png",
+    description:
+      "Semantic search is an advanced search technique that goes beyond keyword matching by understanding the meaning and context of a query. It leverages natural language processing (NLP) and machine learning to interpret user intent, relationships between words, and the overall semantics of a search request. Unlike traditional search, which relies on exact word matches, semantic search can recognize synonyms, contextual meanings, and even infer relevant results based on past data. This approach enhances search accuracy and relevance, making it widely used in AI-driven applications like Google Search, chatbots, and recommendation systems.",
+    techStack: ["Python", "Sentence BERT"],
+    srcURL: "https://github.com/naufalharitsprasetia/tafsil-semantic-search",
+  },
+  {
+    title: "TOEFL Simulation",
+    subTitle: "Web For Simulation, TOEFL Examination",
+    thumbnail: "../img/thumbnails/toefl.png",
+    description:
+      "A TOEFL simulation web is an online platform designed to mimic the real TOEFL exam experience, allowing users to practice under realistic test conditions. It typically includes all four sections of the TOEFL test—Listening, Reading, Speaking, and Writing—along with timers, automated scoring, and interactive question formats. The platform helps users improve their test-taking skills by providing instant feedback, tracking progress, and simulating the pressure of the actual exam. This tool is especially useful for students preparing for TOEFL, enabling them to assess their proficiency and identify areas for improvement before taking the official test.",
+    techStack: ["Python", "Sentence BERT"],
+    srcURL: "https://github.com/naufalharitsprasetia/simulasiITOEFL",
+  },
+  {
+    title: "Project Name",
+    subTitle: "Subtitle",
     thumbnail: "../img/projects-default.jpg",
     description:
-      "PassGen is a Python CLI tool for generating secure, random passwords from the command line. It allows you to easily create strong and unique passwords for your accounts, with a variety of customization options. Simply enter a few commands and PassGen will do the rest, providing you with a secure password to use with confidence. Fast and efficient, PassGen is the perfect tool for anyone who needs to generate passwords on the fly.",
-    techStack: ["Python"],
-    srcURL: "https://github.com/LakshanRukantha/PassGen",
+      "deskripsi, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    techStack: ["Programming", "Languange"],
+    srcURL: "https://github.com/naufalharitsprasetia",
   },
   {
-    title: "CutLink",
-    subTitle: "Here you have full control over your links.",
-    thumbnail: "../img/thumbnails/cutlink-thumbnail.png",
-    description:
-      "CutLink is a modern and user-friendly web application built with React and Material UI. Our platform offers a complete solution for link shortening. With CutLink, you can create short, branded links that are easy to share. Try CutLink today and experience the power of a smarter link shortning platform!",
-    techStack: ["React", "MUI"],
-    srcURL: "https://cut-link.netlify.app/",
-  },
-  {
-    title: "MindMate",
-    subTitle:
-      "Unlock the power of your mind with our AI-Driven mental health web application",
-    thumbnail: "../img/thumbnails/mindmate-thumbnail.png",
-    description:
-      "MindMate is a web application that provides mental health solutions using artificial intelligence powered by OpenAI. It is designed to help individuals struggling with mental health issues to improve their well-being and overall quality of life. The app provides personalized and confidential support to users by analyzing their symptoms, emotions, and behavior. MindMate uses advanced algorithms to identify patterns in user data and provide them with tailored recommendations for managing their mental health.",
-    techStack: ["Next.js", "React", "Node.js"],
-    srcURL: "https://mind-mate.vercel.app/",
-  },
-  {
-    title: "GitTrack",
-    subTitle: "Gain insights and strengthen your GitHub connections",
-    thumbnail: "../img/thumbnails/gittrack-thumbnail.png",
-    description:
-      "GitTrack - an innovative web application designed to empower GitHub users with powerful network analysis tools. With GitTrack, you can effortlessly track and analyze your followers, identifying those who are not reciprocating the follow. Take control of your GitHub presence, strengthen your connections, and optimize your network. Gain valuable insights and make informed decisions to build a strong and engaged community.",
-    techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
-    srcURL: "https://gittrack.vercel.app/",
-  },
-  {
-    title: "My Battery",
-    subTitle:
-      "Simple website that display the battery status of your device and the charging status.",
-    thumbnail: "../img/thumbnails/my-battery-thumbnail.png",
-    description:
-      "My Battery is a simple and minimalistic web application that displays your battery percentage, charging status, and whether the battery is low or full. It's important to note that this is a website-based application.",
-    techStack: ["JavaScript", "HTML", "Tailwind CSS", "CSS"],
-    srcURL: "https://mybattery.vercel.app/",
-  },
-  {
-    title: "SysInfo",
-    subTitle: "Web based terminal emulator",
-    thumbnail: "../img/thumbnails/sys-info-thumbnail.png",
-    description:
-      "SysInfo is a web based terminal emulator which you can run basic commands like help, clear, battery, weather and etc.",
-    techStack: ["JavaScript", "HTML", "CSS", "Tailwind CSS"],
-    srcURL: "https://sys-info.vercel.app/",
-  },
-  {
-    title: "Project Title",
-    subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
+    title: "Project Name",
+    subTitle: "Subtitle",
     thumbnail: "../img/projects-default.jpg",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    srcURL: "",
+      "deskripsi, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    techStack: ["Programming", "Languange"],
+    srcURL: "https://github.com/naufalharitsprasetia",
   },
   {
-    title: "Project Title",
-    subTitle:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
+    title: "Project Name",
+    subTitle: "Subtitle",
     thumbnail: "../img/projects-default.jpg",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi placeat magnam eveniet accusamus tenetur maxime aspernatur deleniti rerum praesentium ducimus minima facilis consectetur expedita, mollitia molestias qui dolorem quam laudantium. Repellendus sunt harum fugiat natus. dolor sit amet consectetur, adipisicing elit. Minima nobis quia et.",
-    techStack: ["Stack"],
-    srcURL: "",
+      "deskripsi, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
+    techStack: ["Programming", "Languange"],
+    srcURL: "https://github.com/naufalharitsprasetia",
   },
   // Add more objects for additional projectData here
 ];
