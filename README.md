@@ -2,8 +2,6 @@
 
   <h1 align="center">My Portfolio Website</h1>
   <hr/>
-  <hr/>
-
 <p align="center">
 
 ## Social buttons
@@ -19,4 +17,4 @@ Released under [MIT](/LICENSE) by [@naufalharitsprasetia](https://github.com/nau
 
 ## Credit
 
-This Portfolio inspired from [@lakshanrukantha](https://github.com/lakshanrukantha/lakshanrukantha.github.io).
+This Portfolio inspired from [![lakshanrukantha - lakshanrukantha.github.io](https://img.shields.io/static/v1?label=lakshanrukantha&message=lakshanrukantha.github.io&color=blue&logo=github)](https://github.com/lakshanrukantha/lakshanrukantha.github.io "Go to GitHub repo")
