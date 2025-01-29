@@ -73,7 +73,7 @@
 }
 
 .project-card {
-  margin: -8rem;
+  /* margin: -8rem; */
   padding: 1rem;
   width: min(400px, calc(100vw - 70px));
   max-width: 350px;
