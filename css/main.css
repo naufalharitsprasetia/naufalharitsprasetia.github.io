@@ -737,14 +737,14 @@ h6 {
 
 /*Icons - Languages */
 
-#skills .container .div-card .sinhala {
-  background-image: url("../img/icon/lang-si.png");
+#skills .container .div-card .indo {
+  background-image: url("../img/icon/indo.png");
 }
 #skills .container .div-card .english {
-  background-image: url("../img/icon/lang-en.png");
+  background-image: url("../img/icon/english.png");
 }
-#skills .container .div-card .tamil {
-  background-image: url("../img/icon/lang-ta.png");
+#skills .container .div-card .arab {
+  background-image: url("../img/icon/arab.png");
 }
 
 .card-buttons {
