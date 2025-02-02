@@ -719,9 +719,57 @@ h6 {
 #skills .container .div-card .react-js {
   background-image: url("../img/icon/react-js.png");
 }
+#skills .container .div-card .php {
+  background-image: url("../img/icon/react-js.png");
+}
+#skills .container .div-card .cpp {
+  background-image: url("../img/icon/cpp.png");
+}
+#skills .container .div-card .laravel {
+  background-image: url("../img/icon/laravel.svg");
+}
+#skills .container .div-card .android {
+  background-image: url("../img/icon/android.webp");
+}
+#skills .container .div-card .tf {
+  background-image: url("../img/icon/tf.png");
+}
+#skills .container .div-card .tailwind {
+  background-image: url("../img/icon/tailwind.png");
+}
+#skills .container .div-card .bootstrap {
+  background-image: url("../img/icon/bootstrap.png");
+}
+#skills .container .div-card .php {
+  background-image: url("../img/icon/php.png");
+}
 
 /*Icons - Tools & Other Skills */
 
+#skills .container .div-card .androidstudio {
+  background-image: url("../img/icon/androidstudio.png");
+}
+#skills .container .div-card .hf {
+  background-image: url("../img/icon/hf.png");
+}
+#skills .container .div-card .jupyter {
+  background-image: url("../img/icon/jupyter.png");
+}
+#skills .container .div-card .kaggle {
+  background-image: url("../img/icon/kaggle.png");
+}
+#skills .container .div-card .collab {
+  background-image: url("../img/icon/collab.png");
+}
+#skills .container .div-card .vscode {
+  background-image: url("../img/icon/vscode.png");
+}
+#skills .container .div-card .canva {
+  background-image: url("../img/icon/canva.webp");
+}
+#skills .container .div-card .gcp {
+  background-image: url("../img/icon/gcp.png");
+}
 #skills .container .div-card .git {
   background-image: url("../img/icon/git.png");
 }
