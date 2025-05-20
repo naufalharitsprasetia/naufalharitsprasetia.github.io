@@ -887,7 +887,8 @@ const projectData = [
     description:
       "Tafsil.id is a digital platform that provides Qur'anic verses along with scientific interpretations, helping lecturers and students find and understand verses relevant to science. With theme-based classification, Tafsil.id supports the integration of religion and science in higher education in a practical and accessible way.",
     techStack: ["Laravel", "TailwindCSS"],
-    srcURL: "https://tafsil.id",
+    srcURL: "https://github.com/naufalharitsprasetia/tafsil2",
+    demoURL: "https://tafsil.id",
   },
   {
     title: "OSPEK RAASEKH 2024",
@@ -897,6 +898,7 @@ const projectData = [
       "Ospek RASSEKH is a new student orientation also known as Study Orientation and Campus introduction or OSPEK. This activity aims to recognize and understand the campus environment as an academic environment and understand the mechanisms that apply in it.",
     techStack: ["Laravel"],
     srcURL: "https://github.com/naufalharitsprasetia/ospekRaasekh",
+    demoURL: "https://github.com/naufalharitsprasetia/ospekRaasekh",
   },
   {
     title: "SIBETA",
@@ -904,8 +906,9 @@ const projectData = [
     thumbnail: "../img/thumbnails/sibeta.jpg",
     description:
       "SIBETA is a Website-Based Tajweed Learning Platform, SIBETA is designed to increase the level of Islamic interest in learning tajweed, and make it easier for each of us to learn tajweed without having to buy books or go to a place of learning or majlis.",
-    techStack: ["Laravel"],
+    techStack: ["Laravel", "Bootstrap"],
     srcURL: "https://github.com/naufalharitsprasetia/uasPbo",
+    demoURL: "https://github.com/naufalharitsprasetia/uasPbo",
   },
   {
     title: "Bengkel TI",
@@ -913,8 +916,9 @@ const projectData = [
     thumbnail: "../img/thumbnails/bengkel.jpg",
     description:
       "Bengkel TI one of the business units of the informatics engineering study program at Darussalam Gontor University that overcomes damage or obstacles to user devices (laptops, cellphones) LCDs, software installations etc., and also IT Workshops sell several accessories such as (mice, keyboards, headsets, etc.).",
-    techStack: ["Laravel"],
+    techStack: ["Laravel", "Bootstrap"],
     srcURL: "https://github.com/naufalharitsprasetia/bengkel_ti",
+    demoURL: "https://github.com/naufalharitsprasetia/bengkel_ti",
   },
   {
     title: "TAFSIL Semantic Search",
@@ -924,6 +928,7 @@ const projectData = [
       "Semantic search is an advanced search technique that goes beyond keyword matching by understanding the meaning and context of a query. It leverages natural language processing (NLP) and machine learning to interpret user intent, relationships between words, and the overall semantics of a search request. Unlike traditional search, which relies on exact word matches, semantic search can recognize synonyms, contextual meanings, and even infer relevant results based on past data. This approach enhances search accuracy and relevance, making it widely used in AI-driven applications like Google Search, chatbots, and recommendation systems.",
     techStack: ["Python", "Sentence BERT"],
     srcURL: "https://github.com/naufalharitsprasetia/tafsil-semantic-search",
+    demoURL: "https://github.com/naufalharitsprasetia/tafsil-semantic-search",
   },
   {
     title: "TOEFL Simulation",
@@ -931,35 +936,42 @@ const projectData = [
     thumbnail: "../img/thumbnails/toefl.png",
     description:
       "A TOEFL simulation web is an online platform designed to mimic the real TOEFL exam experience, allowing users to practice under realistic test conditions. It typically includes all four sections of the TOEFL test—Listening, Reading, Speaking, and Writing—along with timers, automated scoring, and interactive question formats. The platform helps users improve their test-taking skills by providing instant feedback, tracking progress, and simulating the pressure of the actual exam. This tool is especially useful for students preparing for TOEFL, enabling them to assess their proficiency and identify areas for improvement before taking the official test.",
-    techStack: ["Python", "Sentence BERT"],
+    techStack: ["Laravel", "TailwindCSS"],
     srcURL: "https://github.com/naufalharitsprasetia/simulasiITOEFL",
+    demoURL: "https://toeflsimulation.com",
   },
   {
-    title: "Project Name",
-    subTitle: "Subtitle",
-    thumbnail: "../img/projects-default.jpg",
+    title: "Agriconnect : Revolusi Pertanian Tebu",
+    subTitle:
+      "Tingkatkan hasil panen dan bangun masa depan yang lebih baik dengan teknologi IoT dan AI kami.",
+    thumbnail: "../img/thumbnails/agriconnect.png",
     description:
-      "deskripsi, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-    techStack: ["Programming", "Languange"],
+      "AgriConnect is an agricultural platform that leverages IoT and AI to support sustainable sugarcane farming. The system offers real-time monitoring with IoT sensors for soil and environmental conditions, AI-driven recommendations, and an online marketplace for quality agricultural supplies. It also builds a community for farmers to share knowledge and access expert support, helping maximize yields and optimize farm management.",
+    techStack: ["Laravel", "TailwindCSS"],
     srcURL: "https://github.com/naufalharitsprasetia",
+    demoURL: "https://agriconnect.my.id",
   },
   {
-    title: "Project Name",
-    subTitle: "Subtitle",
-    thumbnail: "../img/projects-default.jpg",
+    title: "CENTUNG : Stunting Risk Prediction Application",
+    subTitle:
+      "Centung is Centung is an innovative digital solution designed to predict and address the risk of stunting in children. ",
+    thumbnail: "../img/thumbnails/centung.jpg",
     description:
-      "deskripsi, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-    techStack: ["Programming", "Languange"],
-    srcURL: "https://github.com/naufalharitsprasetia",
+      "Centung is Centung is an innovative digital solution designed to predict and address the risk of stunting in children. By leveraging key health indicators such as nutritional intake, parental health history, and environmental factors, Centung empowers caregivers and healthcare professionals with real-time insights into a child's growth and development.",
+    techStack: ["Kotlin", "Python", "Cloud"],
+    srcURL: "https://github.com/Centung-C242-PS276",
+    demoURL: "https://github.com/Centung-C242-PS276",
   },
   {
-    title: "Project Name",
-    subTitle: "Subtitle",
-    thumbnail: "../img/projects-default.jpg",
+    title: "Dewan Mahasiswa Hadisatya",
+    subTitle:
+      "Dewan Mahasiswa Universitas Darussalam Gontor Kabinet Hadisatya 2024-2025",
+    thumbnail: "../img/thumbnails/demahadisatya.png",
     description:
-      "deskripsi, lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum",
-    techStack: ["Programming", "Languange"],
-    srcURL: "https://github.com/naufalharitsprasetia",
+      "Website Dewan Mahasiswa Universitas Darussalam Gontor Kabinet Hadisatya 2024-2025",
+    techStack: ["Laravel", "TailwindCSS"],
+    srcURL: "https://github.com/naufalharitsprasetia/dema",
+    demoURL: "https://dema.unida.gontor.ac.id",
   },
   // Add more objects for additional projectData here
 ];
@@ -989,8 +1001,8 @@ function loadContent(projectData) {
        <div class='content'>{description}</div>
        <div class='technologies'>Tech Stack: ${techStackData}</div>
        <div class="card-buttons">
-          <a href="https://github.com/naufalharitsprasetia" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
-          <a href="{srcURL}" target="_blank" class="card-btn" style="float: right; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-solid fa-display"></i>View Demo</a>
+          <a href="{srcURL}" target="_blank" class="card-btn" style="float: right; height: 2.35rem; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-regular fa-file-code"></i>Source Code</a>
+          <a href="{demoURL}" target="_blank" class="card-btn" style="float: right; color: #fff; background-color: #68d372; padding: .375rem .75rem; border-radius: .25rem;"><i class="fa-solid fa-display"></i>View Demo</a>
       </div>`,
       data
     );
