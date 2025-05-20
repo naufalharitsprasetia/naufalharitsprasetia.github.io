@@ -1084,6 +1084,12 @@ h6 {
 .col3 .facebook {
   background-image: url("../img/icon/facebook.png");
 }
+.col3 .youtube {
+  background-image: url("../img/icon/youtube.svg");
+}
+.col3 .instagram {
+  background-image: url("../img/icon/instagram.svg");
+}
 
 #intro .button {
   color: white;
