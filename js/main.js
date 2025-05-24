@@ -973,6 +973,26 @@ const projectData = [
     srcURL: "https://github.com/naufalharitsprasetia/dema",
     demoURL: "https://dema.unida.gontor.ac.id",
   },
+  {
+    title: "LangkahHijau – Gaya Hidup Sehat dan Ramah Lingkungan (On Develop)",
+    subTitle:
+      "LangkahHijau adalah aplikasi web interaktif yang mengedukasi dan mendorong masyarakat untuk menjalani gaya hidup sehat dan ramah lingkungan melalui pendekatan gamifikasi.",
+    thumbnail: "../img/thumbnails/langkahhijau.png",
+    description:
+      "LangkahHijau adalah aplikasi web interaktif yang mengedukasi dan mendorong masyarakat untuk menjalani gaya hidup sehat dan ramah lingkungan melalui pendekatan gamifikasi. Pengguna dapat mengikuti tantangan harian, menjawab kuis seputar gaya hidup hijau, mengumpulkan poin ('Green Points'), dan meraih badge eksklusif sebagai bentuk apresiasi terhadap aksi nyata mereka menjaga bumi.",
+    techStack: ["Laravel 12", "TailwindCSS"],
+    srcURL: "https://github.com/naufalharitsprasetia/langkah-hijau",
+    demoURL: "https://github.com/naufalharitsprasetia/langkah-hijau",
+  },
+  {
+    title: "KKN Internasional Malaysia 2025 - UNIDA Gontor",
+    subTitle: "Website KKN Internasional Malaysia 2025 UNIDA Gontor",
+    thumbnail: "../img/thumbnails/kknimalaysia.png",
+    description: "Website KKN Internasional Malaysia 2025 UNIDA Gontor",
+    techStack: ["Laravel", "TailwindCSS"],
+    srcURL: "https://github.com/naufalharitsprasetia/kkninternasional",
+    demoURL: "https://kknimalysia.my.id",
+  },
   // Add more objects for additional projectData here
 ];
 
